@@ -1,0 +1,166 @@
+@media screen and (max-width: 1500px) {
+    body {
+      background-color: royalblue;
+    }
+    .navbar{
+        border:solid orangered;
+        height:200px;
+        width:50vw;
+        color:gold;
+        margin:1em;
+    }
+    .ad{
+        border:solid goldenrod;
+        display:block;
+        margin:2em;
+    }
+    
+    .mainPic{
+        height:100px;
+        width:100px;
+    }
+    .desc{
+        color:green;
+        padding:1em;
+        text-align:left;
+        font-family:sans-serif;
+    }
+    .main{
+        display:flex;
+        flex-wrap:none;
+    }
+    .magic{
+        height:290px;
+        width:290px;
+        border:solid fuchsia;
+        background-image: url('main\ course.jpg');
+        background-size:cover;
+    }
+  }
+
+  .txt {
+    display: none;
+  }
+  .txt2 {
+    display: none;
+  }
+  .txt3 {
+    display: block;
+  }
+
+/* -------------------------------------------{Desktop View} */
+
+  @media screen and (max-width: 880px) {
+    body {
+      background-color: greenyellow;
+    }
+    .navbar{
+        border:solid pink;
+        height:200px;
+        width:50vw;
+        color:blueviolet;
+        margin:1em;
+    }
+    .ad{
+        border:solid rebeccapurple;
+        display:block;
+        margin:.4em;
+    }
+    
+    .mainPic{
+        height:100px;
+        width:100px;
+    }
+    .desc{
+        color:hotpink;
+        padding:1em;
+        text-align:center;
+        font-size:12px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .main{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .magic{
+        height:290px;
+        width:290px;
+        border:solid palevioletred;
+        background-image: url('appetizer.jpg');
+        background-size:cover;
+    }
+  }
+
+  .txt {
+    display: none;
+  }
+  .txt2 {
+    display: block;
+  }
+  .txt3 {
+    display: none;
+  }
+
+/* -------------------------------------------{Mid [IPAD]} */
+
+  @media screen and (max-width: 550px) {
+    body {
+      background-color: black;
+    }
+    .navbar{
+        border:solid white;
+        height:200px;
+      width:50vh;
+      color:lime;
+      margin:1em;
+      
+    }
+    .ad{
+        border:solid white;
+        display:block;
+        margin:1em;
+    }
+    
+    .mainPic{
+        height:100px;
+        width:100px;
+    }
+    .desc{
+        color:blue;
+        padding:1em;
+        text-align:right;
+        font-size:22px;
+        font-family:'Courier New', Courier, monospace;
+    }
+    .main{
+        display:block;
+        flex-wrap:none;
+    }
+    .magic{
+        height:290px;
+        width:290px;
+        border:solid orange;
+        background-image:url('dessert.jpg');
+        background-size:cover;
+    }
+  }
+
+  .txt {
+    display: block;
+  }
+  .txt2 {
+    display: block;
+  }
+  .txt3 {
+    display: none;
+  }
+
+  /* -------------------------------------------{Mobile View} */
+
+  /* ------------------------{DEFAULT} */
+
+  .susan {
+    border: solid papayawhip;
+    color: limegreen;
+  }
+  
